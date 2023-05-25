@@ -1,0 +1,29 @@
+/* Write your code here: */
+h1,
+h2 {
+  color: blueviolet;
+}
+
+.box>p {
+  color: firebrick;
+}
+
+.box li {
+  color: blue;
+}
+
+li.done {
+  color: seagreen;
+}
+
+ul p.done {
+  font-size: 0.5rem;
+}
+
+/* Ahora la otra manera de hacer esto es, por supuesto, utilizando el selector de niño,
+que hace lo mismo aquí, porque es un antepasado y es también un padre en este caso.
+Así que normalmente, a menos que estés seguro de que sólo quieres la relación padre-hijo, prefiero
+usar el selector descendiente porque es un poco más amplio.
+Y normalmente querrás aplicar tu estilo a varias cosas que se aplican a esa misma regla.
+Pero ambas opciones son soluciones totalmente válidas, y te consideraría completamente correcto si hicieras
+cualquiera de ellas. */
